@@ -1,0 +1,228 @@
+{
+  "project_name": "Shaun Empire Global - Ultimate All-In-One Autopilot",
+  "owner": "Shaun Empire Global",
+  "primary_paypal_email": "shaunempireauto@gmail.com",
+  "paypal": {
+    "ipn_webhook": "https://zmhqivcg8oo3.manus.space/api/paypal/webhook",
+    "webhook_instructions_for_paypal_ipn": "Paste this exact HTTPS URL into PayPal > Account Settings > Notifications/Webhooks > Add Webhook and subscribe to all payment and invoice events.",
+    "require_https": true,
+    "verify_signature_and_ipn": true
+  },
+  "goals": {
+    "purpose": "Fully automated global income engine (affiliates, ecommerce, ads, emails, AI products, licensing, microtasks).",
+    "run_24_7": true,
+    "auto_duplicate_and_scale": true,
+    "apply_logos_everywhere": true,
+    "exclude_inventions_for_now": true
+  },
+  "monetization_streams": {
+    "affiliate_networks": [
+      "Amazon Associates",
+      "ClickBank",
+      "ShareASale",
+      "Rakuten",
+      "CJ Affiliate",
+      "Shopify Affiliates",
+      "Awin"
+    ],
+    "marketplaces": [
+      "Creative Market",
+      "GraphicRiver",
+      "Etsy",
+      "Sellfy",
+      "Gumroad",
+      "Redbubble"
+    ],
+    "ecommerce_and_pod": [
+      "Shopify + Printful",
+      "Redbubble",
+      "Amazon FBA"
+    ],
+    "ads_and_content_monetization": [
+      "YouTube AdSense/alternatives",
+      "Programmatic SEO sites",
+      "Ad networks (Propeller/Media.net alternatives)"
+    ],
+    "microtask_platforms": [
+      "Clickworker",
+      "Fiverr (gigs & agency flow)",
+      "Upwork microjobs"
+    ],
+    "digital_products": [
+      "ebooks",
+      "templates",
+      "courses",
+      "logo packs",
+      "AI-generated designs"
+    ],
+    "licensing_and_royalties": true,
+    "trading_bots_optional": false
+  },
+  "ai_tools_and_bots": {
+    "text_ai": [
+      "ChatGPT",
+      "Jasper",
+      "SEO Writer (undetectable)",
+      "Grammarly"
+    ],
+    "image_ai": [
+      "DALL-E 3",
+      "MidJourney",
+      "Canva AI"
+    ],
+    "video_ai": [
+      "Synthesia",
+      "Steve AI",
+      "Descript"
+    ],
+    "automation_bots": [
+      "Bytebot",
+      "Zapier",
+      "Make.com"
+    ],
+    "chatbots_and_support": [
+      "Fiverr AI Chatbot",
+      "Zendesk AI",
+      "ManyChat"
+    ],
+    "special_additions": [
+      "rudeai.app"
+    ],
+    "usage_rules": "Use APIs/keys provided inside Manus settings. Respect platform TOS and copyright rules."
+  },
+  "email_infrastructure": {
+    "primary_providers": [
+      {
+        "name": "Brevo",
+        "free_quota_note": "300 emails/day"
+      },
+      {
+        "name": "MailerLite",
+        "free_quota_note": "12,000/month"
+      },
+      {
+        "name": "Sender",
+        "free_quota_note": "15,000/month"
+      },
+      {
+        "name": "Kit/ConvertKit (free tier)",
+        "free_quota_note": "varies"
+      }
+    ],
+    "max_immediate_volume": "use multi-provider rotation to maximize free daily sends",
+    "autoresponders": true,
+    "cold_outreach_sequences": true,
+    "auto_segment_lists": true
+  },
+  "content_and_seo": {
+    "auto_blog_generation": true,
+    "programmatic_seo_sites": true,
+    "auto_insert_affiliate_links": true,
+    "auto_publish_to_wordpress": true,
+    "seo_tools_connected": [
+      "SEMrush",
+      "Ahrefs optional",
+      "WordStream"
+    ]
+  },
+  "social_and_video": {
+    "auto_post_tools": [
+      "Buffer",
+      "Later",
+      "Hootsuite",
+      "Lately AI"
+    ],
+    "youtube_shorts_pipeline": true,
+    "auto_generate_thumbnails": true,
+    "auto_add_logos_and_branding_to_videos": true
+  },
+  "ecommerce_automation": {
+    "auto_create_products_from_ai_designs": true,
+    "auto_upload_to_pod": [
+      "Printful",
+      "Redbubble",
+      "Etsy listing automation"
+    ],
+    "shopify_setup_auto": true,
+    "abandoned_cart_sequences": true
+  },
+  "licensing_and_retail_outreach": {
+    "auto_build_consignment_proposals": true,
+    "auto_email_local_and_chain_retailers": true,
+    "sports_team_pitching_pipeline": true,
+    "royalty_tracking_dashboard": true
+  },
+  "scaling_and_duplication": {
+    "auto_clone_systems": true,
+    "clone_frequency": "daily (adaptive based on success rate)",
+    "clone_success_threshold": 0.85,
+    "auto_reinvest_percent": 30,
+    "auto_replace_low_performers": true
+  },
+  "integration_and_infrastructure": {
+    "connectors": [
+      "Zapier",
+      "Make.com",
+      "Bubble",
+      "Directual"
+    ],
+    "vps_recommendation": "Run on VPS for 24/7 reliability; laptop ok for testing but not ideal long-term",
+    "logging_and_monitoring": {
+      "console_dashboard": true,
+      "enhanced_dashboard_html": true,
+      "error_alerts": {
+        "email": "owner",
+        "sms_optional": true
+      }
+    }
+  },
+  "analytics_reporting": {
+    "track_every_click": true,
+    "revenue_by_stream": true,
+    "email_metrics": true,
+    "youtube_metrics": true,
+    "daily_digest_to_owner": true
+  },
+  "compliance_and_safety": {
+    "ftc_affiliate_disclosure_template": "included",
+    "spam_policy_respect": true,
+    "platform_terms_monitoring": true,
+    "safety_flagging": true
+  },
+  "payflow": {
+    "all_payments_to_paypal": true,
+    "paypal_primary_email": "shaunempireauto@gmail.com",
+    "one_webhook_to_set_in_paypal_ipn": "https://zmhqivcg8oo3.manus.space/api/paypal/webhook",
+    "webhook_events_to_subscribe": [
+      "PAYMENT.SALE.COMPLETED",
+      "PAYMENT.SALE.DENIED",
+      "INVOICING.INVOICE.PAID",
+      "BILLING.SUBSCRIPTION.CREATED",
+      "PAYMENT.AUTHORIZATION.CREATED",
+      "PAYOUTS-ITEM.SUCCEEDED"
+    ],
+    "webhook_verification_mode": "signature_and_ipn_checks_enabled"
+  },
+  "deployment": {
+    "manus_ready": true,
+    "import_instructions": "Manus Dashboard \u2192 Scripts \u2192 Add New Script \u2192 Paste JSON \u2192 Save \u2192 Activate",
+    "post_deploy_checks": [
+      "Confirm PayPal webhook pasted and active",
+      "Add your API keys for ChatGPT/Jasper/DALL-E/Bytebot/rudeai.app in Manus secret store",
+      "Link email provider accounts (Brevo/MailerLite/Sender) inside Manus",
+      "Confirm affiliate IDs configured",
+      "Run PayPal webhook test transaction"
+    ]
+  },
+  "test_and_start": {
+    "run_smoke_test": true,
+    "test_flow": [
+      "create test product and pay $1 (use buyer test card) to verify webhook and ledger",
+      "verify email send and open tracking",
+      "verify a YouTube short is queued and posted",
+      "verify one product uploaded to Printful/Redbubble"
+    ],
+    "safety_pause_on_errors": true
+  },
+  "notes_for_owner": "This script attempts to enable every free & freemium monetization path discussed. It does NOT guarantee income; results depend on traffic, conversions, and compliance. Keep laptop running or use VPS for 24/7. Insert real API keys and affiliate IDs after import. Test the PayPal webhook immediately."
+}
